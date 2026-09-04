@@ -1,0 +1,7 @@
+{
+  "name": "TG Promote",
+  "description": "Authentic Telegram channel promotion marketplace connecting real advertisers and audiences with transparent analytics and rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
