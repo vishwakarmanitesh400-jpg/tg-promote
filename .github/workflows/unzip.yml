@@ -7,12 +7,15 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - run: |
+      - name: Unzip
+        run: |
+          cd tg-promote
           unzip -o app.zip
           unzip -o gradle.zip
           unzip -o public.zip
           rm app.zip gradle.zip public.zip
-      - run: |
+      - name: Push changes
+        run: |
           git config user.name "bot"
           git config user.email "bot@bot.com"
           git add.
