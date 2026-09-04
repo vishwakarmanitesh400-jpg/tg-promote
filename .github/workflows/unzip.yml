@@ -9,7 +9,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Unzip
         run: |
-          cd tg-promote
           unzip -o app.zip
           unzip -o gradle.zip
           unzip -o public.zip
